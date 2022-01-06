@@ -145,6 +145,7 @@ public class Main {
 				break;
 			}
 		}
+
 		System.out.println(ca + " " + cb + " " + cc + " " + cd + " " + ce + " " + cf + " " + cg + " " + ch + " " + ci
 				+ " " + cj + " " + ck + " " + cl + " " + cm + " " + cn + " " + co + " " + cp + " " + cq + " " + cr + " "
 				+ cs + " " + ct + " " + cu + " " + cv + " " + cw + " " + cx + " " + cy + " " + cz);
