@@ -13,6 +13,7 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			sum += str.charAt(i) - '0';
 		}
+
 		System.out.println(sum);
 	}
 }
