@@ -41,6 +41,7 @@ public class Main {
 				break;
 			}
 		}
+
 		System.out.println(sum);
 	}
 }
