@@ -11,7 +11,6 @@ public class Main {
 		for (int i = 0; i <= 8; i++) {
 			array[i] = scanner.nextInt();
 		}
-		
 		max = 0;
 
 		for (int i = 0; i <= 8; i++) {
