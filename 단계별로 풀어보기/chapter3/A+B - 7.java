@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 	@SuppressWarnings("null")
@@ -20,8 +20,7 @@ public class Main {
 		for (int i = 0; i < arr.length; i++) {
 			System.out.println("Case #"+ (i+1) + ": " + arr[i]);
 		}
-		
-		
+
 		scanner.close();
 	}
 }
