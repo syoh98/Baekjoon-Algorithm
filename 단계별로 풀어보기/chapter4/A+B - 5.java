@@ -21,6 +21,7 @@ public class Main {
 			}
 			sb.append((Integer.toString(a + b)) + "\n");
 		}
+
 		System.out.print(sb);
 	}
 }
