@@ -41,7 +41,6 @@ public class Main {
 				count9++;
 			}
 		}
-
 		System.out.println(count0);
 		System.out.println(count1);
 		System.out.println(count2);
