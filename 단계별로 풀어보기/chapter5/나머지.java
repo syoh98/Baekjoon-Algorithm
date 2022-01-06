@@ -11,7 +11,6 @@ public class Main {
 		for (int i = 0; i <= 9; i++) {
 			hs.add(scanner.nextInt() % 42);
 		}
-
 		scanner.close();
 		System.out.println(hs.size());
 	}
