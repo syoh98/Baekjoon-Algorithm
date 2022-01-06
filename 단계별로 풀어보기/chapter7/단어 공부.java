@@ -9,7 +9,7 @@ public class Main {
 			array[k] = 0;
 		}
 
-		String alpha = scanner.nextLine(); // 알파벳을 입력받는다
+		String alpha = scanner.nextLine(); // 알파벳 입력
 		scanner.close();
 
 		for (int i = 0; i < alpha.length(); i++) {
@@ -33,5 +33,4 @@ public class Main {
 		}
 		System.out.println(ch);
 	}
-
 }
