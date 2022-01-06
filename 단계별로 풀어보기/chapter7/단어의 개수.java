@@ -9,7 +9,6 @@ public class Main {
 		br.close();
 
 		StringTokenizer st = new StringTokenizer(str," ");
-				
 		System.out.println(st.countTokens());
 	}
 }
