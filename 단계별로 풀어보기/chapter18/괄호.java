@@ -9,7 +9,7 @@ public class Main {
 		int T = Integer.parseInt(br.readLine()); // 테스트 케이스
 
 		for (int i = 0; i < T; i++) {
-			String temp = result(br.readLine()); // (())())
+			String temp = result(br.readLine());
 			sb.append(temp + "\n");
 		}
 		System.out.println(sb);
