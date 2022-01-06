@@ -11,7 +11,6 @@ public class Main {
 		for (int i = 0; i < N; i++) {
 			arr[i] = scanner.nextInt();
 		}
-
 		scanner.close();
 		
 		int result = searchMax(arr, N, M);
