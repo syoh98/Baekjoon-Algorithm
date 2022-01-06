@@ -7,7 +7,6 @@ public class Main {
 		char ch = scanner.nextLine().charAt(0); // 소문자 or 대문자 or 숫자
 		
 		System.out.println((int)ch);
-		
 		scanner.close();
 	}
 }
