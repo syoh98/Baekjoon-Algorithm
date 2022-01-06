@@ -29,7 +29,6 @@ public class Main {
 		for (int i = 0; i < temArr2.length; i++) {
 			sb2.append(temArr2[2 - i]);
 		}
-
 		String temp1 = sb1.toString();
 		String temp2 = sb2.toString();
 		
@@ -38,6 +37,5 @@ public class Main {
 		} else {
 			System.out.println(sb2);
 		}
-
 	}
 }
