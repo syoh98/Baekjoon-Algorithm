@@ -4,7 +4,7 @@ public class Main {
 	public static void main(String args[]) {
 		Scanner scanner = new Scanner(System.in);
 
-		int testcase = scanner.nextInt(); // 테스트케이스 개수
+		int testcase = scanner.nextInt(); // 테스트케이스
 		String arr[] = new String[testcase];
 		StringBuilder sb = new StringBuilder();
 		
