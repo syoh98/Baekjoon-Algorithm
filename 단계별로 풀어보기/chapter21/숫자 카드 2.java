@@ -21,6 +21,7 @@ public class Main {
 			sb.append(upperBound(arr, key) - lowerBound(arr, key));
 			sb.append(" ");
 		}
+
 		System.out.println(sb);
 	}
 
