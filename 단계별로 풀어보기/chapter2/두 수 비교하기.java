@@ -1,8 +1,10 @@
+import java.io.*;
 import java.util.*;
 
 public class Main {
 	public static void main(String args[]) {
 		Scanner in = new Scanner(System.in);
+                StringBuilder sb = new StringBuilder();
 
 		int A = in.nextInt();
 		int B = in.nextInt();
@@ -10,11 +12,13 @@ public class Main {
 		in.close();
 
 		if (A > B) {
-			System.out.println(">");
+                        sb.append(">");
 		} else if (A < B) {
-			System.out.println("<");
+                        sb.append("<");
 		} else {
-			System.out.println("==");
+                        sb.append("==");
 		}
+
+                System.out.println(sb);
 	}
 }
