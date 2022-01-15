@@ -15,7 +15,7 @@ public class Main {
 			list[i][0] = Integer.parseInt(st.nextToken()); // 3
 			list[i][1] = Integer.parseInt(st.nextToken()); // 4
 		}
-
+                // lamda
 		Arrays.sort(list, (e1, e2) -> {
 			if (e1[0] == e2[0]) {
 				return e1[1] - e2[1];
