@@ -1,3 +1,4 @@
+import java.io.*;
 import java.util.*;
 
 public class Main {
@@ -5,7 +6,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 
 		int A = in.nextInt();
-		// int B = in.nextInt();
 
 		in.close();
 
