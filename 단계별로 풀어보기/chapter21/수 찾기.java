@@ -24,7 +24,6 @@ public class Main {
 			int key = Integer.parseInt(st2.nextToken());
 			sb.append(Integer.toString(binarySearch(arrN, key)) + "\n");
 		}
-
 		System.out.println(sb);
 	}
 
