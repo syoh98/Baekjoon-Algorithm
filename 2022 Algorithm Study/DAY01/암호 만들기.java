@@ -15,8 +15,8 @@ public class Main {
 		String strNum = br.readLine();
 		StringTokenizer st1 = new StringTokenizer(strNum);
 
-		L = Integer.parseInt(st1.nextToken()); // 4
-		C = Integer.parseInt(st1.nextToken()); // 6
+		L = Integer.parseInt(st1.nextToken());
+		C = Integer.parseInt(st1.nextToken());
 
 		arr = new String[C]; // 6 크기의 배열
 		result = new ArrayList<String>();
