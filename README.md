@@ -17,4 +17,5 @@
 - 팩토리얼형: O(N!)
 
 </br>
-✏️ 그 외 기록은 https://github.com/syoh98/Baekjoon-Algorithm/tree/master/2022%20Algorithm%20Study 각 DAY에 기록
+✏️ 그 외 기록은 https://github.com/syoh98/Baekjoon-Algorithm/tree/master/2022%20Algorithm%20Study </>
+각 DAY에 기록
