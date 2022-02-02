@@ -1,0 +1,8 @@
+-- 각 시간대별로 입양이 몇 건 발생했는지 조회(단, 9시부터 20시 전까지)
+-- hour(time) -> 시간을 알려준다(0 ~ 23)
+
+SELECT HOUR(DATETIME) AS HOUR, COUNT(DATETIME) AS COUNT
+FROM ANIMAL_OUTS
+GROUP BY HOUR(DATETIME)
+HAVING HOUR >= 9 AND HOUR < 20
+ORDER BY HOUR
