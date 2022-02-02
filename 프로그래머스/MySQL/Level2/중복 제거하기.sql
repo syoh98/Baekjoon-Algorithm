@@ -1,0 +1,5 @@
+-- 동물의 이름이 몇 개인지 조회(중복제거, NULL인 경우 제외)
+
+SELECT COUNT(DISTINCT NAME)
+FROM ANIMAL_INS
+WHERE NAME IS NOT NULL
