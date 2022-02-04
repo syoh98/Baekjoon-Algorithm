@@ -1,0 +1,12 @@
+-- 입양을 못 간 동물 중, 가장 오래 보호소에 있었던 동물 3마리의 이름과 보호 시작일을 조회
+-- 보호 시작일 순으로 조회
+-- ON 안에 OUTS.ANIMAL_ID IS NULL말고 WHERE에 작성하기!!!
+
+SELECT INS.NAME, INS.DATETIME
+FROM ANIMAL_INS AS INS
+     LEFT JOIN
+     ANIMAL_OUTS AS OUTS
+     ON INS.ANIMAL_ID = OUTS.ANIMAL_ID
+WHERE OUTS.ANIMAL_ID IS NULL
+ORDER BY DATETIME
+LIMIT 3
