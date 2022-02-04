@@ -1,11 +1,12 @@
 import java.util.*;
-class Solution {
-    public ArrayList<Integer> solution(int[] progresses, int[] speeds) {
-        int[] answer = new int[progresses.length];
-        ArrayList<Integer> list = new ArrayList<Integer>();
 
-        // answer 배열에 각각 일의 수를 삽입
-        for (int i = 0; i < progresses.length; i++) {
+class Solution {
+	public ArrayList<Integer> solution(int[] progresses, int[] speeds) {
+		int[] answer = new int[progresses.length];
+		ArrayList<Integer> list = new ArrayList<Integer>();
+
+		// answer 배열에 각각 일의 수를 삽입
+		for (int i = 0; i < progresses.length; i++) {
 			int cnt = 0;
 
 			while (progresses[i] < 100) {
@@ -15,11 +16,11 @@ class Solution {
 			answer[i] = cnt;
 		}
 
-        for (int i = 0; i < answer.length; i++) {
+		for (int i = 0; i < answer.length; i++) {
 			int current = answer[i];
 			int cnt = 1;
 
-            // 건너뛰도록
+			// 건너뛰도록
 			if (current < 0) {
 				continue;
 			}
@@ -33,8 +34,8 @@ class Solution {
 					break;
 				}
 			}
-			list.add(cnt);	
+			list.add(cnt);
 		}
-        return list;
-    }
+		return list;
+	}
 }
