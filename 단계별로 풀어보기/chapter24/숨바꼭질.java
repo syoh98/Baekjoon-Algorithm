@@ -8,7 +8,7 @@ import java.util.*;
  * 순간이동: 2 * X
  * 
  * */
-public class Main2 {
+public class Main {
 	static int N, K;
 	static int count = 0;
 	static int[] visited = new int[100001]; // 거리에 따른 초 기록
