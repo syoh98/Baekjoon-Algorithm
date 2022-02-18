@@ -43,7 +43,7 @@ public class Main {
 	}
 
 	static void dijkstra(int[][] Map) {
-    // 우선순위 큐 사용
+                // 우선순위 큐 사용
 		PriorityQueue<Point> pq = new PriorityQueue<Point>();
 		Distance[0][0] = Map[0][0];
 		pq.add(new Point(0, 0, Distance[0][0]));
@@ -82,3 +82,4 @@ class Point implements Comparable<Point> {
 		return this.cost - o.cost; // 오름차순(반대시 내림차순)
 	}
 }
+
