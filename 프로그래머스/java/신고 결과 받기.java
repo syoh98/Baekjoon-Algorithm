@@ -54,9 +54,9 @@ class Solution {
 			}
 		}
         
-        // for loop (entrySet())
+        	// for loop (entrySet())
 		for (Entry<String, Integer> entrySet : countMap.entrySet()) {
-            answer.add(entrySet.getValue());
+            		answer.add(entrySet.getValue());
 		}
         
         return answer;
