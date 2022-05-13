@@ -1,3 +1,9 @@
+/*
+ * @author syoh98
+ * @since 2022. 05. 13.
+ * @see https://programmers.co.kr/learn/courses/30/lessons/77484
+ */
+
 import java.util.*;
 
 class Solution {
@@ -16,30 +22,31 @@ class Solution {
             win_nums.add(win_num[i]);
         }
         
-        		for (int i = 0; i < 6; i++) {
-			int userNum = lottos.get(i);
+        for (int i = 0; i < 6; i++) {
+		int userNum = lottos.get(i);
 
-			if (win_nums.contains(userNum)) { // 당첨번호와 사용자가 뽑은 번호가 일치하면
-				correct++;
-			}
-
-			if (userNum == 0) { // 0이면
-				zeroNum++;
-			}
+		if (win_nums.contains(userNum)) { // 당첨번호와 사용자가 뽑은 번호가 일치하면
+			correct++;
 		}
+
+		if (userNum == 0) { // 0이면
+			zeroNum++;
+		}
+	}
         
         int min = 7 - correct;
-		int max = 7 - (correct + zeroNum);
+	int max = 7 - (correct + zeroNum);
 		
-		if(min == 7) { // 로또 당첨 번호가 하나도 일치하는게 없는 경우
-			min = 6;
-		}
-		if(max == 7) {
-			max = 6;
-		}
+	if(min == 7) { // 로또 당첨 번호가 하나도 일치하는게 없는 경우
+		min = 6;
+	}
+	    
+	if(max == 7) {
+		max = 6;
+	}
 
-		answer[0] = max;
-		answer[1] = min;
+	answer[0] = max;
+	answer[1] = min;
         
         return answer;
     }
